@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');</style>
+ <script src="https://kit.fontawesome.com/97b07af39f.js" crossorigin="anonymous"></script>
+ <title>Portfolio</title>
+</head>
+<body>
+ 
+<div id="header">
+
+<div class="container">
+ <nav>
+  <p class="logo">isabella.</p>
+ <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Projects</a></li>
+  <li><a href="#">Resume</a></li>
+  <li><a href="#">Contact</a></li>
+ </ul>
+ </nav>
+
+ <div class="header-text">
+  <h1>Hi, I'm<span> Isabella</span> Presto<br>
+  </h1>
+  <p>Web Developer Student</p>
+  <button>About me</button>
+ </div>
+</div>
+</div>
+
+<!-- About -->
+<div id="about">
+ <div class="container">
+  <div class="row">
+   <div class="about-col-1">
+    <img src="img/IMG_3586 3.jpeg" alt="profilePic">
+   </div>
+   <div class="about-col-2">
+    <h1 class="sub-title">About me</h1>
+      <p class="aboutcontent">I am a driven web developer student studying the program <strong>Web developer in e-commerce</strong> at Medieinstitutet. I like new challenges and are eager to learn more. I am now looking for an <strong>internship starting in September 2023 (25/09/23 - 1/12/23)</strong> 
+        where I can apply what I have learned during my education so far and improve my web development skills. <br>
+        I am based in Barcelona but open to work remotely worldwide. <br>
+        Feel free to contact me if you have any recommendation or internship offer!</p>
+   
+    <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+    <p class="tab-links"><a class="reslink" target="_blank" href="https://www.cv-mallen.se/online-cv/ieszcvfpqclt/ieszcvfpqclt/">Download my resume</a></p>
+
+   </div>
+
+   <div class="tab-contents active-tab" id="skills">
+    <ul>
+     <li><span>HTML</span></li>
+     <li><span>CSS</span></li>
+     <li><span>Javascript</span></li>
+     <li><span>Node.js</span></li>
+     <li><span>Express</span></li>
+     <li><span>Mongo DB</span></li>
+     <li><span>Typescript</span></li>
+    </ul>
+   </div>
+
+   <div class="tab-contents" id="education">
+   <ul>
+    <li><span>Web developer in e-commerce at Medieinstitutet (Webbutvecklare inom e-handel) 09/2022 - 05/2024</span> <br>
+      ● Front and backend development, HTML5, CSS3, JavaScript, PHP, JSON and SQL <br>
+      ● API development <br>
+      ● Responsive web development<br>
+      ● E-commerce systems<br>
+      ● Payment systems, e-commerce business systems and logistics<br>
+      ● PHP</li>
+   </ul>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Portfolio -->
+<!-- <div id="portfolio">
+  <div class="container">
+
+    <h1 class="sub-title myprojects">My projects</h1>
+
+    <div class="work-list">
+
+      <div class="work">
+        <img src="" alt="">
+        <div class="layer">
+          <h3>REST API</h3>
+          <p>Rest api crud delete put , book api book club</p>
+          <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+         
+        </div>
+      </div>
+
+
+      <div class="work">
+        <img src="" alt="">
+        <div class="layer">
+          <h3>To do app</h3>
+          <p>to do pp html css js, localstorage add delete</p>
+          <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+
+
+      <div class="work">
+        <img src="" alt="">
+        <div class="layer">
+          <h3>frontend group project</h3>
+          <p>group project classmates sandra, viola, elin, frontend </p>
+          <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+
+
+      <div class="work">
+        <img src="" alt="">
+        <div class="layer">
+          <h3>Calculator</h3>
+          <p>calculator html css js</p>
+          <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+
+  </div>
+   
+</div> -->
+
+
+<section class="sub-section-alternative" id="projects">
+  <h1 class="sub-title myprojects">My projects</h1>
+  <div class="project-container">
+
+
+      <div class="project-card">
+          <img class="project-image" src="img/bok mock.png" alt="Project One Image"/>
+          <h3>API</h3>
+          <p class="subtext">Rest API using NodeJS and express Rest API using NodeJS and expressRest API using NodeJS and expressRest API using NodeJS and expres</p>
+          <hr/>
+          <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/REST-API-Inl-mning/">Live demo</a></p>
+          <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/Calculator/">GitHub</a></p>
+      </div>
+
+
+      <div class="project-card">
+        <img class="project-image" src="img/todo.png" alt="Project One Image"/>
+        <h3>To Do App</h3>
+        <p class="subtext">Simple to do app built using HTML, CSS and JavaScript, storing data in local storage.
+          Simple to do app built using HTML, CSS and ncjwrjvfvbfjv nckirufhu
+        </p>
+        <hr/>
+        <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/TO-DO/">Live demo</a></p>
+        <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/Calculator/">GitHub</a></p>
+      </div>
+
+
+      <div class="project-card">
+        <img class="project-image" src="img/tech store.png" alt="Project One Image"/>
+        <h3>Tech Store - Group Project</h3>
+        <p class="subtext">Frontntend group project Frontend group project Frontend group project Frontend group project Frontend group projects</p>
+        <hr/>
+        <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/Tech-Store-Grupp-6/">Live demo</a></p>
+        <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/Calculator/">GitHub</a></p>
+      </div>
+
+
+      <div class="project-card">
+       <img class="project-image" src="img/calc.png" alt="Project One Image"/>
+       <h3>Calculator</h3>
+       <p class="subtext">Calculator built using HTML, CSS and JavaScript.Calculator built using HTML, CSS and JavaScript.Calculator built using HTML, CSS and JavaScript.huhgyfut</p>
+       <hr/>
+       <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/Calculator/">Live demo</a></p>
+       <p class="subtext"><a class="project-link" href="https://isabellapresto.github.io/Calculator/">GitHub</a></p>
+   </div>
+
+
+  </div>
+</section>
+
+
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p>isabella.presto@gmail.com</p>
+        <p>0034 691 905 892</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/isabella-presto-4100a6159/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+
+
+      </div>
+      <div class="contact-right"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove ("active-link")
+  }
+
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove ("active-tab")
+  }
+
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+
+}
+
+</script>
+</body>
+</html>
