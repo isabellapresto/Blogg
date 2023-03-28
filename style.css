@@ -36,7 +36,7 @@ nav{
 }
 
 .logo::first-letter{
- color:  #ff004f;
+ color:  #F08080;;
 }
 
 nav ul li {
@@ -56,7 +56,7 @@ nav ul li a::after{
  content: '';
  width: 0;
  height: 3px;
- background: #ff004f;
+ background: #F08080;;
  position: absolute;
  left: 0;
  bottom: -6px;
@@ -80,8 +80,39 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
- color:  #ff004f;;
+ color:#F08080;
 }
+
+/* #FFB6C1 no
+#FFC0CB
+#FFD1DC
+#F08080
+#FFA07A
+Lavender:
+
+#E6E6FA no
+#F8F8FF
+#DDA0DD
+#BA55D3
+#9370DB */
+
+.btn {
+  display: block;
+  margin-top: 25px;
+  width: fit-content;
+  border: 1px solid #F08080;
+padding: 10px; 
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background: #F08080;
+}
+
 
 /* about */
 #about{
@@ -140,7 +171,7 @@ width: 35%;
  content:'';
  width: 0;
  height: 3px;
- background: #ff004f;
+ background: #F08080;;
  position: absolute;
  left: 0;
  bottom: -8px;
@@ -162,8 +193,8 @@ width: 35%;
 }
 
 .tab-contents ul li span{
-color: #b54769;
-font-size: 14px;
+color: white;
+font-size: 16px;
 }
 
 .tab-contents {
@@ -206,6 +237,17 @@ display: block;
     align-items: center;
    }
     */
+
+    .sub-title.myprojects{
+      padding: 10px 10%;
+    }
+
+    .project-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 10%;
+      
+     }
    
    .project-card {
     width: 300px;
@@ -221,11 +263,7 @@ display: block;
    }
    
    
-   .project-container {
-    display: flex;
-    justify-content: space-around;
-    
-   }
+  
    
   
    
@@ -255,7 +293,7 @@ display: block;
    
    .project-link {
     text-decoration: none;
-    color:   #b54769;
+    color:    #F08080
    }
    
    
@@ -294,4 +332,62 @@ display: block;
 } */
 
 
+/* contact */
+
+.contact-container{
+  display: flex;
+  padding: 10px 10%;
+ 
+  align-items: center;
+  justify-content: center;
+  
+}
+.contact-left{
+
+
+ 
+}
+
+.contact-left p{
+  
+  font-size: 20px;
+}
+
+.contact-left p i{
+  color: #F08080;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.contact-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+}
+
+
+
+/* .contact-right{
+ 
+  background-color: beige;
+
+  
+} */
 
